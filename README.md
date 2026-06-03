@@ -1,7 +1,6 @@
 # Login as
 
-A Moodle block plugin that allow option to login as other user who have permission to Log in as other users.
-
+A Moodle block plugin that provides a convenient option to log in as another user for users who have the "Log in as other users" capability.
 
 ## Requirements
 
