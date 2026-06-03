@@ -1,0 +1,24 @@
+.block_loginas .mform.full-width-labels .fitem.row > .col-md-3,
+.block_loginas .mform.full-width-labels .fitem.row > .col-md-9 {
+    flex-basis: auto;
+    max-width: unset;
+}
+
+.block_loginas .mform {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block_loginas .mform #fitem_id_user,
+.block_loginas .mform #fitem_id_submitbutton {
+    display: inline-flex;
+}
+
+.block_loginas .mform #fitem_id_user > *,
+.block_loginas .mform #fitem_id_submitbutton > * {
+    align-self: flex-end;
+}
+
+.block_loginas .mform #fitem_id_user .form-autocomplete-selection {
+    min-height: auto;
+}
