@@ -25,8 +25,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component    = 'block_loginas';
-$plugin->release      = '1.0.0';
-$plugin->version      = 2026060400;
+$plugin->release      = '1.0.1';
+$plugin->version      = 2026100600;
 $plugin->requires     = 2020061500;
-$plugin->supported    = [39, 502];
+$plugin->supported    = [39, 503];
 $plugin->maturity     = MATURITY_STABLE;
